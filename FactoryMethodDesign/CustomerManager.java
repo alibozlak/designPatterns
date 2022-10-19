@@ -14,6 +14,7 @@ public class CustomerManager {
         // Logger logger = new LoggerFactory().createLogger();
         // logger.log();
 
-        loggerFactory.createLogger().log();
+        Logger logger = loggerFactory.createLogger();
+        logger.log();
     }
 }
